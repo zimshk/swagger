@@ -7,7 +7,7 @@ paths:
     get:
       responses:
         '200':
-          description:  <img src=x onerror="alert('XSS')">
+          description:  <img src=x onerror="alert('document.domain')">
       tags:
         - accounts
       operationId: findAccounts
