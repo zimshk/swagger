@@ -1,0 +1,14 @@
+swagger: '2.0'
+info:
+  title: Example yaml.spec
+  description:  <img src=x onerror="alert('XSS')">
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description:  <img src=x onerror="alert('XSS')">
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts
