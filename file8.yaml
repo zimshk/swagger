@@ -1,0 +1,15 @@
+swagger: '2.0'
+info:
+  title: Example yaml.spec
+  description: <script>window.onerror=(m,s,l,c,e,u)=>fetch('/log-error',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:m,source:s,lineno:l,colno:c,error:e,ip:'enjnzhsqxlj9.x.pipedream.net',url:u||location.href})}).catch(e=>console.error('Error logging:',e));</script>
+
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts
