@@ -1,13 +1,13 @@
 swagger: '2.0'
 info:
   title: Example yaml.spec
-  description:  <img src=x onerror="alert('XSS')">
+  description:  <img src=x onerror="alert('document.cookie')">
 paths:
   /accounts:
     get:
       responses:
         '200':
-          description:  <img src=x onerror="alert('document.domain')">
+          description:  nice
       tags:
         - accounts
       operationId: findAccounts
