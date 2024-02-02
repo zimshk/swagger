@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: Example yaml.spec
-  description:  <img src=x onerror="alert('document.cookie')">
+  description:  <img src=x onerror="alert(document.cookie)">
 paths:
   /accounts:
     get:
