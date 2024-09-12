@@ -1,0 +1,14 @@
+swagger: '2.0'
+info:
+  title: Example yaml.spec
+  description:  <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><style><a title="</style><img src='#' onerror='alert(1)'>">
+paths:
+  /<math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><style><a title="</style><img src='#' onerror='alert(1)'>">:
+    get:
+      responses:
+        '200':
+          description:  nice
+      tags:
+        - <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><style><a title="</style><img src='#' onerror='alert(1)'>">
+      operationId: findAccounts
+      summary: Finds all <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><style><a title="</style><img src='#' onerror='alert(1)'>">
