@@ -1,0 +1,14 @@
+swagger: '2.0'
+info:
+  title: Example yaml.spec
+  description:  <svg/onload=alert(document.domain)>
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description:  nice
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary:  <svg/onload=alert(document.domain)>
