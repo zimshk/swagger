@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="200">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="lightgray" />
+
+  <!-- Text for Description -->
+  <text x="50%" y="30" font-size="20" text-anchor="middle" fill="black">
+    Click the button to redirect to Google
+  </text>
+
+  <!-- Embedding a Button inside the SVG -->
+  <foreignObject x="120" y="70" width="160" height="50">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <!-- HTML Button -->
+      <button onclick="window.location.href='https://google.com';" style="font-size: 16px; padding: 10px 20px; cursor: pointer;">
+        Redirect to Google
+      </button>
+    </body>
+  </foreignObject>
+</svg>
