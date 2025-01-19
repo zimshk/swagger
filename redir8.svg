@@ -1,4 +1,4 @@
-<svg onload=”window.location=’https://google.com'"xmlns=”http://www.w3.org/2000/svg">
+<svg onload=”window.location=’https://google.com'" xmlns=”http://www.w3.org/2000/svg">
    <text x="50%" y="30" font-size="20" text-anchor="middle" fill="black">
     Redirecting to Google in 2 seconds...
    </text>
