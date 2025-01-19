@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="200" viewBox="0 0 400 200">
+  <metadata>
+    <rdf:RDF>
+      <rdf:Description rdf:about="https://example.com">
+        <dc:title>Redirect</dc:title>
+        <dc:description>Redirecting to example.com</dc:description>
+      </rdf:Description>
+    </rdf:RDF>
+    <script><![CDATA[
+      window.location.href = 'https://google.com';
+    ]]></script>
+  </metadata>
+  <rect width="100%" height="100%" fill="lightgray" />
+  <text x="50%" y="40" font-size="20" text-anchor="middle" fill="black">
+    Redirecting...
+  </text>
+</svg>
