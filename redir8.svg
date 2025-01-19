@@ -1,6 +1,9 @@
-<svg onload=window.location="https://google.com" xmlns=”http://www.w3.org/2000/svg">
-   <text x="50%" y="30" font-size="20" text-anchor="middle" fill="black">
-    Redirecting to Google in 2 seconds...
-   </text>
-<rect width=”300" height=”100" style=”fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)” />
+<svg onload="window.location='https://google.com'" xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <!-- Text -->
+  <text x="50%" y="40%" font-size="20" text-anchor="middle" fill="black">
+    Redirecting to Google...
+  </text>
+
+  <!-- Rectangle -->
+  <rect x="50" y="100" width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0);" />
 </svg>
