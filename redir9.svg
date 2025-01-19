@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="200" viewBox="0 0 400 200">
   <!-- Background -->
   <rect width="100%" height="100%" fill="lightgray" />
 
   <!-- Text for Description -->
-  <text x="50%" y="30" font-size="20" text-anchor="middle" fill="black">
-    Click below to redirect to Google
+  <text x="50%" y="40" font-size="20" text-anchor="middle" fill="black">
+    Click the button to go to Google
   </text>
 
-  <!-- Anchor Tag for Redirect -->
-  <a xlink:href="https://google.com" target="_blank">
-    <!-- A clickable rectangle as the button -->
-    <rect x="100" y="60" width="200" height="50" fill="blue" rx="10" ry="10" />
-    <!-- Text inside the button -->
-    <text x="200" y="95" font-size="18" text-anchor="middle" fill="white">
+  <!-- Anchor Tag Wrapping the Button -->
+  <a href="https://google.com" target="_blank">
+    <!-- Button Rectangle -->
+    <rect x="100" y="80" width="200" height="50" fill="blue" rx="10" ry="10" />
+    <!-- Button Text -->
+    <text x="200" y="110" font-size="18" text-anchor="middle" fill="white" dominant-baseline="middle">
       Go to Google
     </text>
   </a>
